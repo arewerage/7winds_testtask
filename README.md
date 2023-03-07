@@ -10,6 +10,6 @@
 * :heavy_check_mark: Работающие сохранения при перезаходе в приложение
 
 ## Скриншоты:
-![1](../media/1.jpg?raw=true)
-![1](../media/2.jpg?raw=true)
-![1](../media/3.jpg?raw=true)
+![1](../media/1.jpg?raw=true = 250x)
+![1](../media/2.jpg?raw=true = 250x)
+![1](../media/3.jpg?raw=true = 250x)
