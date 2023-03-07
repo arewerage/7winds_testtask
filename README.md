@@ -11,7 +11,7 @@
 
 ## Демонстрация:
 <p align="center">
-  <img src="https://github.com/arewerage/7winds_testtask/blob/media/1.jpg" alt="" width="200"/>
-  <img src="https://github.com/arewerage/7winds_testtask/blob/media/2.jpg" alt="" width="200"/>
-  <img src="https://github.com/arewerage/7winds_testtask/blob/media/3.jpg" alt="" width="200"/>
+  <img src="https://github.com/arewerage/7winds_testtask/blob/media/1.jpg" alt="" width="240"/>
+  <img src="https://github.com/arewerage/7winds_testtask/blob/media/2.jpg" alt="" width="240"/>
+  <img src="https://github.com/arewerage/7winds_testtask/blob/media/3.jpg" alt="" width="240"/>
 </p>
