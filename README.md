@@ -9,7 +9,9 @@
 * :heavy_check_mark: APK файл (находится в корне проекта)
 * :heavy_check_mark: Работающие сохранения при перезаходе в приложение
 
-## Скриншоты:
-![1](../media/1.jpg)
-![1](../media/2.jpg = 250x)
-![1](../media/3.jpg = 250x)
+## Демонстрация:
+<p align="center">
+  <img src="https://github.com/arewerage/7winds_testtask/blob/media/1.jpg" alt="" width="330"/>
+  <img src="https://github.com/arewerage/7winds_testtask/blob/media/2.jpg" alt="" width="330"/>
+  <img src="https://github.com/arewerage/7winds_testtask/blob/media/3.jpg" alt="" width="330"/>
+</p>
