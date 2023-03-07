@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb6ec51513ef244d86b3a7fff28cdf3, type: 3}
+  m_Name: FormConfig
+  m_EditorClassIdentifier: 
+  _attributes:
+  - Id: 0
+    Prefab: {fileID: 6216630214328914098, guid: d171e7d877ed3914996481beb5e44f3b, type: 3}
+  - Id: 1
+    Prefab: {fileID: 2359424682529205961, guid: 45b8a9f309dbfdf46aa447c85d52ec32, type: 3}
