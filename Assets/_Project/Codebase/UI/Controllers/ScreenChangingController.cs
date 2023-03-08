@@ -1,5 +1,4 @@
 ﻿using System;
-using _Project.Codebase.Configs;
 using _Project.Codebase.Data;
 using _Project.Codebase.UI.Views;
 using UniRx;
@@ -53,51 +52,6 @@ namespace _Project.Codebase.UI.Controllers
             
             _screenPlacementController.GoToNextScreen(nextScreen, duration);
             _currentScreen.Value = nextScreen;
-        }
-    }
-
-    public class AttributePreviewController : IInitializable, IDisposable
-    {
-        private readonly ReactiveProperty<ScreenType> _currentScreen;
-        private readonly CustomizationData _customizationData;
-        private readonly AttributeConfig _formConfig;
-        private readonly AttributeConfig _logoConfig;
-        private readonly CompositeDisposable _disposable = new();
-
-        public AttributePreviewController(
-            ReactiveProperty<ScreenType> currentScreen,
-            CustomizationData customizationData,
-            [Inject(Id = "Form")] AttributeConfig formConfig,
-            [Inject(Id = "Form")] AttributeConfig logoConfig)
-        {
-            _currentScreen = currentScreen;
-            _customizationData = customizationData;
-            _formConfig = formConfig;
-            _logoConfig = logoConfig;
-        }
-
-        public void Initialize()
-        {
-            _currentScreen
-                .ObserveEveryValueChanged(screen => screen.Value)
-                .Subscribe(OnScreenChanged)
-                .AddTo(_disposable);
-        }
-
-        public void Dispose()
-        {
-            _disposable?.Dispose();
-        }
-
-        private void OnScreenChanged(ScreenType currentScreen)
-        {
-            switch (currentScreen)
-            {
-                case ScreenType.Logo:
-                    break;
-                case ScreenType.Name:
-                    break;
-            }
         }
     }
 }
